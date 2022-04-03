@@ -50,3 +50,28 @@
   .about-desc{
       font-weight: 300;
   }
+
+  /* mobile break point at 480 */
+@media screen and (max-width: 480px) {
+	.about{
+		flex-direction: column;
+        text-align: center;
+        margin-top: 50px;
+	}
+
+    .about-left {
+        width: 100%;
+    }
+
+    .about-card{
+        height: 30vh;
+    }
+    .about-card.bg{
+        display: none;
+    }
+
+    .about-right{
+        padding: 20px;
+    }
+
+}
